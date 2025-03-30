@@ -1,0 +1,15 @@
+*   59b16d8 (HEAD -> master, origin/master) Merge branch 'master' of https://github.com/efilipovska/SI_2025_lab1_233042
+|\
+| *   d923fa1 Merge pull request #11 from efilipovska/3-list-tasks-sorted-by-name
+| |\
+| | * 9242287 (origin/3-list-tasks-sorted-by-name, 3-list-tasks-sorted-by-name) Implement list-tasks-sorted-by-name feature
+| * |   b196993 Merge pull request #10 from efilipovska/1-remove-a-task-by-name
+| |\ \
+| | |/
+| |/|
+| | * 44ddef6 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Implement remove-a-task-by-name feature
+| |/
+* / 413ada0 (origin/5-filter-tasks-by-category, 5-filter-tasks-by-category) Implement filter-tasks-by-category feature
+|/
+* b773e04 Add starter code
+* 4e54f7c Initial commit

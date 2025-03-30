@@ -1,0 +1,91 @@
+4.
+mkdir SI_2025_lab1_233042
+cd SI_2025_lab1_233042/
+git init (Initialized empty Git repository in C:/...)
+
+
+5.
+git remote add origin https://github.com/efilipovska/SI_2025_lab1_233042.git
+git branch -M master
+git push -u origin master
+
+
+6.
+nano README.md
+git add README.md
+git commit -m "Initial commit"
+git push origin master
+
+
+7.
+git add SI2025Lab1Main.java
+git commit -m "Add starter code"
+
+
+8.
+git push
+
+
+13.
+git fetch origin
+
+
+14.
+git checkout 1-remove-a-task-by-name
+
+
+15.
+nano SI2025Lab1Main.java
+
+
+16.
+git add SI2025Lab1Main.java
+git commit -m "Implement remove-a-task-by-name feature"
+
+
+17.
+git push origin 1-remove-a-task-by-name
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 402 bytes | 402.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/efilipovska/SI_2025_lab1_233042.git
+   b773e04..44ddef6  1-remove-a-task-by-name -> 1-remove-a-task-by-name
+
+
+22.
+git checkout master
+git merge 5-filter-tasks-by-category
+Updating b773e04..413ada0
+Fast-forward
+ SI2025Lab1Main.java | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+
+23.
+git pull
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 1.95 KiB | 117.00 KiB/s, done.
+From https://github.com/efilipovska/SI_2025_lab1_233042
+   b773e04..d923fa1  master     -> origin/master
+Auto-merging SI2025Lab1Main.java
+Merge made by the 'ort' strategy.
+ SI2025Lab1Main.java | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 491 bytes | 491.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/efilipovska/SI_2025_lab1_233042.git
+   d923fa1..59b16d8  master -> master
